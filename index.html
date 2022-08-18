@@ -16,16 +16,21 @@
         border-radius: 7px;
         float: left;
         margin-right: 10px;
+        object-fit: cover;
       }
       img.NYU {
         float: left;
+        border-radius: 10px;
         width: 200px;
         margin-right: 10px;
+        object-fit: cover;
       }
       img.MIT {
         float: left;
+        border-radius: 10px;
         width: 200px;
         margin-right: 10px;
+        object-fit: cover;
       }
       p.Contacts {
         font-weight: bold;
@@ -70,19 +75,39 @@
         color: darkgray;
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
       }
+      a.Frag {
+        text-align: center;
+        color: burlywood;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: medium;
+      }
+      a.Jump {
+        text-align: center;
+        color: rgb(187, 187, 187);
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
     <h1 class="Title">Portfolio powered by &lt;HTML&gt; & CSS</h1>
+    <a href="#Section-About" class="Frag">About</a>
+    <a href="#Section-Education" class="Frag">Education</a>
+    <a href="#Section-Experience" class="Frag">Experience</a>
+    <a href="#Section-Certificate" class="Frag">Certificate</a>
+    <a href="#Section-Skills" class="Frag">Skills</a>
+    <a href="#Section-Acomplishment" class="Frag">Acomplishment</a>
+    <a href="#Section-Contact" class="Frag">Contact</a>
     <h6 class="Update">Last Updated: July 2039</h6>
     <p class="Copyright">&copy; GPL v3 License</p>
     <a href="https://undercook1799.github.io/shiny-octo-pancake/" class="link"
       >Link to Site</a
     >
-    <h2>About Me</h2>
+    <h2 id="Section-About">About Me</h2>
     <img
       class="self"
-      src="https://github.com/Undercook1799/shiny-octo-pancake/blob/main/person1.jpeg"
+      src="https://github.com/Undercook1799/shiny-octo-pancake/blob/main/person1.jpeg?raw=true"
       alt="Image of me, John Doe"
     />
     <p class="Quote">
@@ -97,12 +122,12 @@
       I love learning and I love food. In my free time, I like to sing, dance,
       catch a movie, and volunteer
     </p>
-    <h2>Career Goals</h2>
+    <h2 id="Section-Goals">Career Goals</h2>
     <p>
       Rise into a <strong class="leadership">leadership</strong> position within
       the Architecturial department
     </p>
-    <h2>Education</h2>
+    <h2 id="Section-Education">Education</h2>
     <img
       class="NYU"
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkwtri4b8r0ep8ho61118ipob-wpengine.netdna-ssl.com%2Fwp-content%2Fuploads%2F2017%2F04%2FiStock-513822150.jpg&f=1&nofb=1"
@@ -127,22 +152,24 @@
     <br />
     <br />
     <br />
-    <h2>Experience</h2>
+    <h2 id="Section-Experience">Experience</h2>
     <p>6 months of volunteering at General Hospital of New York</p>
     <p>2 years running as Assistant Manager at Hilton Hotel</p>
     <p>1 year as Supervisor at Hilton Hotel</p>
-    <h2>Certificates</h2>
+    <h2 id="Section-Certificate">Certificates</h2>
     <p>First Aid - Expires in July 2025</p>
-    <h2>Skills</h2>
+    <h2 id="Section-Skills">Skills</h2>
     <p>Good at running under pressure</p>
     <p>Multiple languages</p>
     <p>Fast and Crticial Thinker</p>
-    <h2>Acomplishments</h2>
+    <h2 id="Section-Acomplishments">Acomplishments</h2>
     <p>Past NYU with a 3.89 GPA</p>
     <p>Ran for club president and achieved so with high percentage (73%)</p>
-    <h2>Contact Information</h2>
+    <h2 id="Section-Contact">Contact Information</h2>
     <p class="Contacts">Name: John Doe</p>
     <p class="Contacts">Email: something@something.com</p>
+    <a href="mailto:something@something.com">Click here to Email</a>
     <p class="Contacts">Phone Number: 1(123)123-4567</p>
+    <a href="#" class="Jump">Jump to Top</a>
   </body>
 </html>
