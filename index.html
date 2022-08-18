@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta
+      charset="UTF-8"
+      <meta
+      name="viewport"
+      content="width=device-width"
+    />
+    <meta
+      name="description"
+      content="Open Source HTML + CSS Portfolio Temmplate"
+    />
     <title>Portfolio Test Drive 1</title>
     <style>
+      p {
+        font-family: Helvetica;
+      }
       img {
         width: 100px;
         border-radius: 7px;
@@ -13,11 +26,37 @@
         font-weight: bold;
       }
       p.Quote {
+        color: darkmagenta;
         font-style: italic;
+      }
+      em.Lang {
+        color: chocolate;
+        font-style: normal;
+      }
+      strong.leadership {
+        color: mediumaquamarine;
+      }
+      h1.Title {
+        text-align: center;
+      }
+      h2 {
+        text-align: left;
+        font-family: Helvetica;
+      }
+      h6.Update {
+        text-align: right;
+        color: darkgray;
+        font-family: Lucida Sans Unicode;
+      }
+      em.degree {
+        font-weight: bold;
+        font-style: normal;
       }
     </style>
   </head>
   <body>
+    <h1 class="Title">Portfolio</h1>
+    <h6 class="Update">Last Updated: July 2039</h6>
     <h2>About Me</h2>
     <img src="person1.jpeg" alt="Image of me, John Doe" />
     <p class="Quote">
@@ -26,18 +65,24 @@
     </p>
     <p>
       Born in Amsterdam, Netherlands, I developed a taste of learning different
-      languages: English, Dutch, Italian, French
+      languages: <em class="Lang">English, Dutch, Italian, French</em>
     </p>
     <p>
       I love learning and I love food. In my free time, I like to sing, dance,
       catch a movie, and volunteer
     </p>
     <h2>Career Goals</h2>
-    <p>Rise into a leadership position</p>
+    <p>
+      Rise into a <strong class="leadership">leadership</strong> position within
+      the Architecturial department
+    </p>
     <h2>Education</h2>
-    <p>New York University - Minor in Arthopology</p>
-    <p>New York University - BA in Architecture</p>
-    <p>Massachusetts Institute of Technology - PHD in English</p>
+    <p>New York University - <em class="degree">Minor</em> in Arthopology</p>
+    <p>New York University - <em class="degree">BA</em> in Architecture</p>
+    <p>
+      Massachusetts Institute of Technology - <em class="degree">PHD</em> in
+      English
+    </p>
     <h2>Experience</h2>
     <p>6 months of volunteering at General Hospital of New York</p>
     <p>2 years running as Assistant Manager at Hilton Hotel</p>
@@ -57,4 +102,5 @@
     <p class="Contacts">Phone Number: 1(123)123-4567</p>
   </body>
 </html>
+
 
